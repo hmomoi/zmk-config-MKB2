@@ -33,4 +33,7 @@ if SHIELD_MKB_L_Base || SHIELD_MKB_L_ENC || SHIELD_MKB_L_JOY || SHIELD_MKB_L_TB 
 
     config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
         default 1
+
+    config MIPI_DBI
+        bool
 endif
