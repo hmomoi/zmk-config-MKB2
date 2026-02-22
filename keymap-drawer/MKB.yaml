@@ -9,10 +9,10 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: Fnc}
   - O
   - P
-  - BKSP
+  - BACKSPACE
   - {t: ESC, h: BT}
   - A
   - S
@@ -37,7 +37,7 @@ layers:
   - DOT
   - UP
   - FSLH
-  - {t: ESC, h: LCTL}
+  - {t: ESC, h: LCTRL}
   - LGUI
   - LALT
   - {t: SPACE, h: Num}
@@ -68,7 +68,7 @@ layers:
   - {t: ▽, type: trans}
   - F1
   - F2
-  - F3
+  - {t: F3, type: held}
   - F4
   - F5
   - {t: ▽, type: trans}
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - ENTER
-  - {t: ENTER, type: held}
+  - ENTER
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -209,9 +209,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -320,7 +320,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ind_bat'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -354,3 +354,8 @@ layers:
   - END
   - A
   - B
+combos:
+- p: [19, 20]
+  k: LANGUAGE 1
+- p: [15, 16]
+  k: LANGUAGE 2
