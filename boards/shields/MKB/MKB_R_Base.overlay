@@ -46,7 +46,7 @@
     };
 };
 
-&i2c0 { status = "disabled"; };
+&i2c0 { status = "disabled"; }; // 0番を無効にする
 
 &i2c1 {
     status = "okay";
@@ -71,4 +71,5 @@
         inversion-on;
         prechargep = <0x22>;
     };
+
 };

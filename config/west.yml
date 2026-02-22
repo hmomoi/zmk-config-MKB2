@@ -15,7 +15,7 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/petejohanson
     - name: prospector
-      url-base: https://github.com/t-ogura
+      url-base: https://github.com/t-ogura      
   projects:
     - name: zmk
       # remote: zmkfirmware
@@ -27,8 +27,7 @@ manifest:
       revision: v0.3-branch
     - name: zmk-pmw3610-driver
       remote: badjeff
-      # revision: zmk-0.3
-      revision: main
+      revision: zmk-0.3
     - name: zmk-analog-input-driver
       remote: badjeff
       revision: main
@@ -53,4 +52,7 @@ manifest:
       path: modules/prospector-zmk-module
   self:
     path: config
+
     
+
+
