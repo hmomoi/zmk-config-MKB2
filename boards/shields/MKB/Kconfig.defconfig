@@ -17,7 +17,7 @@ if LVGL
         default 148
 
     config LV_Z_BITS_PER_PIXEL
-        default 
+        default 1
 
     choice LV_COLOR_DEPTH
         default LV_COLOR_DEPTH_1
