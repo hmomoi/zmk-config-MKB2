@@ -46,6 +46,8 @@
     };
 };
 
+&i2c0 { status = "disabled"; }; // 0番を無効にする
+
 &i2c1 {
     status = "okay";
     compatible = "nordic,nrf-twi";
@@ -69,4 +71,5 @@
         inversion-on;
         prechargep = <0x22>;
     };
+
 };
