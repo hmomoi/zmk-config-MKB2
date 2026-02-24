@@ -59,5 +59,4 @@
         status = "okay";
         device = <&trackball_split>;
     };
-
 };
