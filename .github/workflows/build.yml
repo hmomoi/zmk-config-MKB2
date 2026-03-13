@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
+      - name: Update west modules
+        run: west update
       - name: Checkout
         uses: actions/checkout@v6
         with:
@@ -72,4 +74,5 @@ jobs:
           title: Completed
           message: Completed
         if: ${{ always() }}
+
 
